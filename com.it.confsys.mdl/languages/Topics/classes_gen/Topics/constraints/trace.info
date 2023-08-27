@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <root>
+    <file name="ConstraintsAspectDescriptor.java">
+      <unit at="13,0,29,0" name="Topics.constraints.ConstraintsAspectDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:b6d5f271-9f84-48cb-9e62-6e0ba8a92283(Topics.constraints)/1647811562846778497">
+    <file name="DurationTopic_Constraints.java">
+      <node id="1647811562846778497" at="20,38,21,37" concept="8" />
+      <node id="1647811562846778706" at="25,63,26,64" concept="8" />
+      <node id="1647811562846778706" at="29,109,30,100" concept="4" />
+      <node id="1647811562846778706" at="31,53,32,147" concept="1" />
+      <node id="1647811562846778706" at="33,7,34,20" concept="5" />
+      <node id="1647811562846789405" at="37,52,38,20" concept="5" />
+      <node id="1647811562846790150" at="39,7,40,19" concept="5" />
+      <node id="1647811562846778497" at="44,84,45,119" concept="4" />
+      <node id="1647811562846778706" at="45,119,46,69" concept="1" />
+      <node id="1647811562846778497" at="46,69,47,22" concept="5" />
+      <node id="1647811562846778497" at="51,0,52,0" concept="6" trace="DurationTopic$rK" />
+      <node id="1647811562846778497" at="55,0,56,0" concept="6" trace="duration$15Q0" />
+      <node id="1647811562846778497" at="20,0,23,0" concept="0" trace="DurationTopic_Constraints#()V" />
+      <node id="1647811562846778706" at="25,0,28,0" concept="0" trace="Duration_Property#(Ljetbrains/mps/smodel/runtime/ConstraintsDescriptor;)V" />
+      <node id="1647811562846778706" at="30,100,33,7" concept="2" />
+      <node id="1647811562846779937" at="36,82,39,7" concept="2" />
+      <node id="1647811562846778706" at="36,0,42,0" concept="7" trace="staticValidateProperty#(Lorg/jetbrains/mps/openapi/model/SNode;I)Z" />
+      <node id="1647811562846778497" at="43,0,49,0" concept="3" trace="getSpecifiedProperties#()Ljava/util/Map;" />
+      <node id="1647811562846778706" at="28,0,36,0" concept="3" trace="validateValue#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/Object;Ljetbrains/mps/smodel/runtime/CheckingNodeContext;)Z" />
+      <scope id="1647811562846778497" at="20,38,21,37" />
+      <scope id="1647811562846778706" at="25,63,26,64" />
+      <scope id="1647811562846778706" at="31,53,32,147" />
+      <scope id="1647811562846779939" at="37,52,38,20" />
+      <scope id="1647811562846778497" at="20,0,23,0" />
+      <scope id="1647811562846778706" at="25,0,28,0">
+        <var name="container" id="1647811562846778706" />
+      </scope>
+      <scope id="1647811562846778497" at="44,84,47,22">
+        <var name="properties" id="1647811562846778497" />
+      </scope>
+      <scope id="1647811562846779144" at="36,82,40,19" />
+      <scope id="1647811562846778706" at="29,109,34,20">
+        <var name="result" id="1647811562846778706" />
+      </scope>
+      <scope id="1647811562846778706" at="36,0,42,0">
+        <var name="node" id="1647811562846778706" />
+        <var name="propertyValue" id="1647811562846778706" />
+      </scope>
+      <scope id="1647811562846778497" at="43,0,49,0" />
+      <scope id="1647811562846778706" at="28,0,36,0">
+        <var name="checkingNodeContext" id="1647811562846778706" />
+        <var name="node" id="1647811562846778706" />
+        <var name="propertyValue" id="1647811562846778706" />
+      </scope>
+      <unit id="1647811562846778497" at="50,0,53,0" name="Topics.constraints.DurationTopic_Constraints$CONCEPTS" />
+      <unit id="1647811562846778497" at="54,0,57,0" name="Topics.constraints.DurationTopic_Constraints$PROPS" />
+      <unit id="1647811562846778706" at="24,0,43,0" name="Topics.constraints.DurationTopic_Constraints$Duration_Property" />
+      <unit id="1647811562846778497" at="19,0,58,0" name="Topics.constraints.DurationTopic_Constraints" />
+    </file>
+  </root>
+</debug-info>
+
